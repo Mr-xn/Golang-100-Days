@@ -133,8 +133,8 @@ func main() {
 	x := 140
 	fmt.Println(&x)
 	x, y := 200, "abc"
-	fmt.Println(&x, x)
-	fmt.Print(y)
+	fmt.Println(&x, y)
+	fmt.Println(y)
 }
 ```
 

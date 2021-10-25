@@ -133,7 +133,7 @@ func main() {
 	x := 140
 	fmt.Println(&x)
 	x, y := 200, "abc"
-	fmt.Println(&x, y)
+	fmt.Println(&x, x)
 	fmt.Println(y)
 }
 ```
@@ -142,7 +142,7 @@ func main() {
 
 ```go
 0xc0000b2008
-0xc0000b2008 abc
+0xc0000b2008 200
 abc
 ```
 
